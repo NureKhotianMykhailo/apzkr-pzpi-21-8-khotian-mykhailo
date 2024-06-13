@@ -1,0 +1,34 @@
+.element-icon{
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-right: 0.75vw;
+}
+
+.element-name{
+    font-weight: bold;
+    color: rgb(158,158,158);
+    font-size: 1vw;
+}
+
+.element-container{
+    display: flex;
+    align-items: center;
+    width: 20vh;
+    height: 1.3vh;
+    background-color: transparent;
+    padding: 0.5vw;
+    border-radius: 0.4vw;
+    margin: 0.75vw;
+}
+
+.active{
+    background-color: rgb(51,52,54);
+}
+
+.active .element-name{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}

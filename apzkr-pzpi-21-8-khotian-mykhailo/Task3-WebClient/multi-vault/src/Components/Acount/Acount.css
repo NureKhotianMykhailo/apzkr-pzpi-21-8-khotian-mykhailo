@@ -1,0 +1,36 @@
+.acount-icon{
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 0.25vw;
+    margin: 0.5vw;
+}
+
+.acount-name{
+    color: white;
+    font-size: 0.8vw;
+}
+
+.acounts-description{
+    color: rgb(158,158,158);
+    font-size: 0.6vw;
+    margin: 0.5vw;
+}
+
+.acount-header-line{
+    display: flex;
+    align-items: center;
+}
+
+.account-container{
+    width: 25vw;
+    height: 20vh;
+    background-color: rgb(28,29,31);
+    border-radius: 0.2vw;
+    margin: 1vw;
+    
+}
+
+.account-container:hover{
+    border: 0.05vw solid white;
+}
+

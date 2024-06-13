@@ -1,0 +1,46 @@
+.alocation-table-row{
+    display: flex;
+    justify-content: space-between  ;
+}
+
+.alocaion-table-first{
+    color: rgb(158,158,158);
+    font-size: 0.8vw;
+    font-weight: bold;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    border-bottom: 0.005vh solid rgb(158,158,158);
+    height: 3vh;
+}
+
+.alocation-table{
+    margin-top: 3vh;
+    width: 80vw;
+    background-color: rgb(28,29,31);
+    
+}
+
+.alocation-table-header{
+    color:white;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+.alocation-table-container{
+    margin-left: 2.5vw;
+}
+
+.allocation-table-div-20{
+    width: 20%;
+}
+
+.allocation-table-div-40{
+    width: 40%;
+}
+
+.allocation-table-div-10{
+    width: 10%;
+    text-align: right;
+}

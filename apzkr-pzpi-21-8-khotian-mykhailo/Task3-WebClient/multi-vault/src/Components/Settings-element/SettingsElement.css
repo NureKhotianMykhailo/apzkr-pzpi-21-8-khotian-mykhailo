@@ -1,0 +1,118 @@
+.settings-element-container{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.settings-element-tab-full{
+    width: 4vh;
+    height: 2vh;
+    border-radius: 1vh;
+    background-color: rgb(58,59,61);
+    bottom: 33%;
+    left: 0;
+    position: absolute;
+
+}
+
+.settings-element-tab-full-active{
+    background-color: rgb(154,148,236);
+}
+
+.settings-element-tab-non-full{
+    position: absolute;
+    bottom: 33%;
+    left: 0.2vh;
+    width: 1.6vh;
+    height: 1.6vh;
+    border-radius: 0.8vh;
+    background-color: black;
+    margin-bottom: 0.2vh;
+    
+}
+
+.settings-element-tab-non-full-active{
+    left: 2vh;
+}
+
+.settings-element-tab{
+    display: flex;
+    position: relative;
+    margin-right: 2vw;
+}
+
+.settings-element-name{
+    font-size: 0.8vw;
+    color: white;
+    font-weight: bold;
+    margin-bottom: -1vh;
+}
+
+.settings-element-description{
+    font-size: 0.8vw;
+    color: rgb(158,158,158);
+}
+
+.settings-element-text{
+    width: 50vw;
+}
+
+.settings-element-container{
+    border-top: 0.2vh rgb(158,158,158) solid;
+    
+}
+
+.settings-element-list{
+    width: 15vw;
+    height: 3vh;
+    background-color: rgb(58,59,61);
+    border: 0.2vh solid rgb(158,158,158);
+    border-radius: 0.4vw;
+    margin-top: 1.5vh;
+    display: flex;
+}
+
+.settings-element-list select{
+    font-size: 0.8vw;
+    padding: 0.3vh;
+    background-color: transparent;
+    color: white; 
+    border: none;   
+    width: 15vw;
+}
+
+.settings-element-list select option{
+    background-color: rgb(58,59,61);
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border:0px;
+    outline:0px;
+}
+
+.settings-element-button{
+
+    display: flex;
+    height: 3vh;
+    padding-top: 2.5vh;
+}
+
+.settings-button{
+
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    font-size: 2vh;
+    height: 3vh;
+    border-radius: 0.5vw;
+    background-color: rgb(154,148,236);
+    color: white;  
+    border: none;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: white; 
+}
+
+

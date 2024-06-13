@@ -1,0 +1,12 @@
+.settings-header-element{
+    font-size: 0.8vw;
+    color: rgb(158,158,158);
+    margin: 1vw;
+
+}
+
+.settings-header-element-active{
+    color:white;
+    border-bottom: 0.2vh solid rgb(154,148,236);
+    font-weight: bold;
+}

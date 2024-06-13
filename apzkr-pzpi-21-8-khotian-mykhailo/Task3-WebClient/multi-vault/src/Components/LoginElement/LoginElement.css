@@ -1,0 +1,36 @@
+.login-element-container{
+    width: 16vw;
+    height: 4vh;
+    background-color: rgb(28,29,31);
+    color:white;
+    border-radius: 1vh;
+}
+
+.login-element-line{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-element-image{
+    width: 2.5vh;
+    height: 2.5vh;
+    margin-left: 0.5vh;
+    margin-top: 0.75vh;
+}
+
+.login-element-input{
+    width: 13vw;
+    height: 2.5vh; 
+    font-size: 0.8vw;
+    background-color: transparent;
+    border: none;
+    color:white;
+    margin-top: 0.75vh;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}

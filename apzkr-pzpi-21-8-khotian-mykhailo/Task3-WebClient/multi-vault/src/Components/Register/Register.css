@@ -1,0 +1,41 @@
+.register-container{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.register-header{
+    text-align: center;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin-top: 30vh;
+}
+
+.register-redirect{
+    display: flex;
+    justify-content: left;
+    color: white;
+    justify-content: center;
+    margin-top: 8vh;
+    gap: 1vw;
+}
+
+.login-elements{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:4vh;
+    margin-left: 2vw;
+    margin-top: 4vh;
+}
+
+.register-button{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 8vh;
+    margin-left: 2vw;
+}

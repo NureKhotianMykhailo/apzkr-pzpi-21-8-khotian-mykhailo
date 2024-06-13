@@ -1,0 +1,36 @@
+.find-line{
+    width: 79vw;
+    height: 5vh;
+    background-color: rgb(28,29,31);
+    display: flex;
+    align-items: center;
+    border-radius: 2.5vw;
+    margin-top: 7vh;
+    margin-left: 1vw;
+
+}
+.find-button{
+    width: 4vw;
+    height: 3vh;
+    background-color: transparent;
+    color: rgb(154,148,236);
+    border: 0.05vh solid rgb(154,148,236);
+    font-size: 0.8vw;
+    border-radius: 1.4vh;
+}
+
+.find-line-input{
+    background-color: transparent;
+    font-size: 0.8vw;
+    border:none;
+    color: white;
+    margin-left: 5vw;
+    width: 69vw;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}

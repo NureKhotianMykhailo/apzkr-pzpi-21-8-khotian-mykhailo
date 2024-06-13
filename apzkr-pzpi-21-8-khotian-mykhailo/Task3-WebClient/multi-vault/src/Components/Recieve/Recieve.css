@@ -1,0 +1,64 @@
+.recieve-container{
+    position: fixed;
+    width: 20vw;
+    height: 43vh;
+    top: 23.5vh;
+    left: 40vw;
+    background-color: rgb(28,29,31);
+    color: white;
+    border: 0.05vh solid rgb(158,158,158);
+
+}
+
+.recieve-header{
+    align-items: center;
+    text-align: center;
+    font-size: 1.2vw;
+    margin-top: 2vh;
+}
+
+.recieve-qr{
+
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.recieve-qr-img{
+    width: 8vw;
+    height: 8vw;
+}
+
+.recieve-adress{
+    align-items: center;
+    text-align: center;
+    font-size: 0.8vw;
+    margin-top: 2vh;
+}
+
+.copy-button{
+    width: 7vw;
+    height: 5vh;
+    border-radius: 2.5vh;
+    margin-top: 1.5vh;
+    display: flex;
+    align-items: center;
+    font-size: 0.8vw;
+    text-align: center;
+    justify-content: center;
+    border: 0.05vh solid rgb(154,148,236);
+    color: rgb(154,148,236);
+    background-color: transparent;
+}
+
+.copy-buttons{
+    margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.hidden{
+    display:none;
+}

@@ -1,0 +1,14 @@
+.auth-button-container{
+    width: 16vw;
+    height: 4vh;
+    border-radius: 1vh;
+    text-align: center;
+    background-color: transparent;
+    border: 0.05vh solid rgb(154,148,236);
+    color: rgb(154,148,236);
+    font-size: 2vh;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1vh;
+
+}

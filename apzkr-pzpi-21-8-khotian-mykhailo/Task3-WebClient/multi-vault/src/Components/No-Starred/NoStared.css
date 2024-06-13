@@ -1,0 +1,10 @@
+.no-stared h3{
+    color: rgb(158,158,158);
+    font-size: 0.8vw;
+}
+
+.no-stared{
+    width: 10vw;
+    text-align: center;
+    padding: 1.5vw;
+}

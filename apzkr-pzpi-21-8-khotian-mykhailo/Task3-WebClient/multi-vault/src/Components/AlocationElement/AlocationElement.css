@@ -1,0 +1,98 @@
+.element-allocaion-line-full{
+    width: 15vw;
+    height: 0.7vh;
+    background-color: rgb(51,52,54);
+    position: absolute;
+    border-radius: 0.35vh;
+    top: 0;
+    left: 0;
+}
+
+.element-allocaion-line-non-full{
+    
+    height: 0.7vh;
+    position: absolute;
+    border-radius: 0.35vh;
+    top: 0;
+    left: 0;
+}
+
+
+.element-line{
+    width: 80vw;
+    height: 5vh;
+    background-color: rgb(28,29,31);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+
+.asset-container{
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+.element-icon{
+    width: 1vw;
+    height: 1vw;
+}
+
+.element-name{
+    color: white;
+    font-weight: bold;
+    font-size: 0.8vw;
+}
+
+.element-price{
+    width: 20%;
+}
+
+.element-price-h3{
+    color: rgb(158,158,158);
+    font-weight: bold;
+    font-size: 0.8vw;
+}
+
+.element-alocation{
+    display: flex;
+    align-items: center;  
+    width: 40%;
+    text-align: right;
+}
+
+.element-alocation-h3{
+    color: white;
+    font-weight: bold;
+    font-size: 0.8vw;
+    width: 2.5vw;
+}
+
+.element-amount-h3{
+    color: rgb(158,158,158);
+    font-weight: bold;
+    font-size: 0.8vw;
+}
+
+.element-value-h3{
+    color: white;
+    font-weight: bold;
+    font-size: 0.8vw;
+}
+
+.element-amount{
+    width: 10%;
+    text-align: right;
+}
+
+.element-value{
+    width: 10%;
+    text-align: right;
+}
+
+.element-alocation-line{
+    display: flex;
+    margin-left: 0.8vw;
+    position: relative;
+}

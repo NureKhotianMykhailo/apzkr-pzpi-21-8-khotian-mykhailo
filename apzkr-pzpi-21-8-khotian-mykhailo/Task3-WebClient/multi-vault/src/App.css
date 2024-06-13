@@ -1,0 +1,16 @@
+.App{
+    display: flex;
+    justify-content: space-between;
+    
+}
+body {
+    background-color: rgb(19,20,21);
+}
+
+.menu-container{
+    position: fixed;
+}
+
+.main-container{
+    margin-left: 14vw;
+}

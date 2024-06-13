@@ -1,0 +1,7 @@
+.accounts-table-container{
+    margin-left: 2.5vw;
+}
+.account-table{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,115 @@
+.send-container{
+    position: fixed;
+    width: 20vw;
+    height: 43vh;
+    top: 23.5vh;
+    left: 40vw;
+    background-color: rgb(28,29,31);
+    color: white;
+    border: 0.05vh solid rgb(158,158,158);
+    
+}
+
+.send-header{
+    align-items: center;
+    text-align: center;
+    font-size: 1.2vw;
+    margin-top: 2vh;
+}
+
+.send-adress-input{
+
+    height: 5vh;
+    background-color: rgb(28,29,31);
+    display: flex;
+    align-items: center;
+    border-radius: 2.5vw;
+    margin-left: 1vw;
+    border-radius: 0.5vh;
+    border: 0.1vh solid rgb(158,158,158);
+}
+
+.send-input{
+    background-color: transparent;
+    font-size: 0.8vw;
+    border:none;
+    color: white;
+}
+
+#send-adress{
+    width: 18vw;
+    margin-top: 3vh;
+}
+#send-input-adress{
+    width: 16vw;
+    margin-left: 1vw;
+}
+#send-amount{
+    width: 14vw;
+    margin-right: 1vw;
+    font-size: 0.8vw;
+
+}
+#send-input-amount{
+    width: 12vw;
+    margin-left: 1vw;
+    
+}
+.send-input-eth{
+    padding-right: 1vw;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.send-amount-input{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8vh;
+}
+
+.amount-container{
+    color: white;
+    font-size: 0.8vw;
+    margin-left: 1vw;
+    margin-top: 1.2vh;
+}
+
+.send-button{
+    width: 7vw;
+    height: 5vh;
+    border-radius: 2.5vh;
+    margin-top: 1.5vh;
+    display: flex;
+    align-items: center;
+    font-size: 0.8vw;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#cancel-button{
+    border: 0.05vh solid rgb(154,148,236);
+    color: rgb(154,148,236);
+    background-color: transparent;
+}
+
+#confirm-button{
+    background-color: rgb(154,148,236);
+    color: rgb(28,29,31);
+}
+
+.send-buttons{
+    margin-top: 7vh;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.hidden{
+    display: none;
+}

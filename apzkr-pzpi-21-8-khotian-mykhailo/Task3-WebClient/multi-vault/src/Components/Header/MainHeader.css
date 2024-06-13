@@ -1,0 +1,7 @@
+.header-container{
+    width: 85vw;
+    height: 5vh;
+    color: white;
+    font-size: 0.8vw;
+    border-bottom: 0.15vh solid rgb(28,29,31);
+}

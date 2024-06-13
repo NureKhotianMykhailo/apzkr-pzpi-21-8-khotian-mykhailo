@@ -1,0 +1,26 @@
+.starred-element-container {
+    display: flex;
+    align-items: center;
+    padding-left: 0.75vw;
+    margin-bottom: -0.9vw;
+}
+
+.starred-element-image {
+    width: 2vw;
+    height: 2vw;
+    object-fit: cover;
+    margin-right: 0.75vw;
+}
+
+.starred-element-title {
+    font-size: 1vw;
+    font-weight: bold;
+    color: white;
+    margin-bottom: -0.7vw;
+}
+  
+.starred-element-description {
+    font-size: 0.6vw;
+    color: rgb(158,158,158);
+
+}
