@@ -62,78 +62,48 @@
 При написанні серверної частини додатку було дотримано принципів REST. Ця архітектура визначає, як система має бути організована для того щоб бути масштабованою та забезпечувати простоту інтеграції з різними компонентами. REST специфікація наведена в таблиці 1.
 
 	Таблиця 1 – REST спеціфікація
-Назва 
-	Метод 
-	Шлях 
-	Тіло запиту
-	Register 
-	POST 
-	/auth/register
-	{
-“name”: “string”,
-“email”: “string”
-“pwd”:“string”,
-}
-	Login 
-	POST 
-	 /auth/login 
-	{
-“email”: “string”,
-“pwd”: “string”
-}
-	Logout 
-	GET 
-	/auth/logout
+Назва 			Метод	Шлях		Тіло запиту
 	
-
-	Refresh 
-	GET 
-	/auth/refresh
+Register		POST 	/auth/register	{
+							“name”: “string”,
+							“email”: “string”
+							“pwd”:“string”,
+						}
+Login 			POST 	 /auth/login 	{
+							“email”: “string”,
+							“pwd”: “string”
+						}
+Logout 			GET 	/auth/logout	
 	
-
-	Get user info
-	GET 
-	/api/user
+Refresh 		GET 	/auth/refresh
+		
+Get user info		GET	/api/user
 	
-	
+Update user info	PUT	/api/user	{
+							"username":string,
+							"email":"string",
+							"roles" :"int",
+							"settings" : {
+							    "isEngLanguage: boolean,
+							    "isEngRegion": boolean,
+							    "hideEmptyTokens": boolean",
+							},
+							"staredAccounts": ["string"],
+							"wallet": "string"
+						}
+Send transaction	POST 	/api/sendtrx	{
+							"amount": "float",
+							"receiver":"string"
+						}
 
-Update user info
-	PUT 
-	/api/user
-	{
-"username":string,
-"email":"string",
-"roles" :"int",
-"settings" : {
-    "isEngLanguage: boolean,
-    "isEngRegion": boolean,
-    "hideEmptyTokens": boolean",
-},
-"staredAccounts": ["string"],
-"wallet": "string"
-}
-	Send transaction
-	POST 
-	/api/sendtrx
-	{
-"amount": "float",
-"receiver":"string"
-}
+Продовження таблиці 1
 
-
-        Продовження таблиці 1
-Get wallet
-	POST 
-	/api/wallet
-	{
-"address": "string"
-}
-	Get balance
-	POST 
-	/api/balance
-	{
-"address": "string"
-}
+Get wallet		POST 	/api/wallet	{
+							"address": "string"
+						}
+Get balance		POST 	/api/balance	{
+							"address": "string"
+						}
 
 
 3 КЛІЄНТСЬКА ЧАСТИНА
@@ -174,7 +144,7 @@ Get wallet
 ВИСНОВКИ
 
 
-        Прогятом роботи було створено програмну систему для керування пристроями для фізичного зберігання криптовалютних активів фізичною особою або групою фізичних осіб та їх інтеграції в web3 додатки. Проект виконаний за стандартами чистоти коду[1]. Для серверної частини було використано Node.js [2] та фреймфорк Express.js. Для клієнтської частини було використано React.js[3]. В якості архітектури було обрано MVC для серверної частини та компоненти для клієнтської частини[4].
+        Прогятом роботи було створено програмну систему для керування пристроями для фізичного зберігання криптовалютних активів фізичною особою або групою фізичних осіб та їх інтеграції в web3 додатки. Проект виконаний за стандартами чистоти коду. Для серверної частини було використано Node.js та фреймфорк Express.js. Для клієнтської частини було використано React.js. В якості архітектури було обрано MVC для серверної частини та компоненти для клієнтської частини.
         Виконання курсової  роботи допомогло поглибити знання з розробки веб-додатків, архітектури програмної системи, а також збільшило розуміння принципів роботи децентралізованих систем та маніпуляцій з криптоактивами.
 
 
